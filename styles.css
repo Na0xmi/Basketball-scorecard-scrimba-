@@ -1,0 +1,59 @@
+@font-face {
+    font-family:'CursedTimer' ;
+    src: url('CursedTimerULiL.ttf') format('truetype');
+}
+
+html {
+    background-image: url(basketballcourt.png);
+    background-size: cover;
+}
+
+h1 {
+    margin:0;
+}
+
+button {
+background-color: transparent;
+border: solid 2px white;
+border-radius:5px;
+color:white;
+width:45px;
+height:45px;
+font-size:16px;
+padding:5px;
+}
+
+button:hover {
+    color: #F94F6D;
+    border: solid 2px #F94F6D;
+}
+
+#card-container {
+    font-family: Verdana;
+    background: #1B244A;
+    color:white;
+    width:40%;
+    margin:15% auto;
+    display:flex;
+    text-align:center;
+    padding:50px;
+    justify-content:space-around;
+    border-radius:5px;
+}
+
+
+.score {
+    background-color: black;
+    border-radius:5px;
+    position:relative;
+    top:-10px;  
+}
+.score > p {
+    font-family: 'CursedTimer';
+    font-size:90px;
+    color:#F94F6D;
+    padding:5px;
+    position:relative;
+    top:5px;
+    margin:20px 0px;
+}
